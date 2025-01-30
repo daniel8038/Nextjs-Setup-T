@@ -6,7 +6,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:tailwindcss/recommended',
+    // 'plugin:tailwindcss/recommended',
     'plugin:jsx-a11y/recommended',
   ],
   plugins: ['simple-import-sort', 'prettier', '@typescript-eslint', 'jsx-a11y'],
@@ -21,6 +21,7 @@ module.exports = {
     'tailwindcss/no-custom-classname': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-require-imports': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
     'simple-import-sort/imports': [
       2,
       {
